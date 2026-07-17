@@ -50,6 +50,7 @@ The API will be available at `http://localhost:8080`, and the Swagger docs at `h
 ## API Reference
 
 Base URL (local): `http://localhost:8080`
+
 Base URL (live): `https://task-manager-api-production-edb6.up.railway.app`
 
 The easiest way to explore and test every endpoint is through the [Swagger UI](https://task-manager-api-production-edb6.up.railway.app/swagger-ui.html). A summary is also provided below.
