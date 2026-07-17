@@ -7,6 +7,7 @@
 A REST API for managing personal tasks, with JWT-based authentication so each user can only access their own data. 
 
 **Live demo:** [task-manager-api-production-edb6.up.railway.app](https://task-manager-api-production-edb6.up.railway.app)
+
 **API docs (Swagger):** [task-manager-api-production-edb6.up.railway.app/swagger-ui.html](https://task-manager-api-production-edb6.up.railway.app/swagger-ui.html)
 
 
