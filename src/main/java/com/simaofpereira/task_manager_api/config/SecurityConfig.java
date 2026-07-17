@@ -32,6 +32,12 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/api/auth/**").permitAll()
                         .requestMatchers("/").permitAll()
+                        .requestMatchers(
+                                "/swagger-ui/**",
+                                "/swagger-ui.html",
+                                "/v3/api-docs/**",
+                                "/v3/api-docs.yaml")
+                        .permitAll()
                         .anyRequest().authenticated())
                 // Register our custom filter to run before Spring's default authentication
                 // filter
